@@ -1,12 +1,47 @@
+/* color pallete: https://colorhunt.co/palette/a9907ef3debaabc4aa675d50 */
+
 .cover {
     width: 400px;
     height: auto;
 }
 
 h1 {
-    color:darkolivegreen
+    color: #675D50;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 ul {
-    color:blue
+    color:blue;
+    margin:0;
+    padding:0;
+}
+
+.inlinelist {
+    display: inline-block;
+    margin: auto;
+    padding: 0 20px 0 20px;
+    text-align: justify;
+}
+
+.maintitle {
+    background-color: #A9907E;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 0.25em;
+}
+
+.centercont {
+    margin: auto;
+    background-color: #F3DEBA;
+    width: 75%;
+    text-align: center;
+    padding: 8px;
+}
+
+.mainthumb {
+    width: 100px;
+    display: block;
+    margin: auto;
 }
